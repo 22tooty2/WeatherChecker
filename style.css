@@ -1,0 +1,33 @@
+html {
+   background: url("IMGS/ZeldaRain.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+}
+
+.Header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    background-color: rgba(71, 61, 139, 0.548);
+}
+
+.HeaderFields {
+    display: flex;
+
+    align-items: center;
+    flex-direction: row;
+    gap: 2rem;
+
+    margin-left: 2rem;
+}
+
+/* .PageContent {
+    position: relative;
+} */
